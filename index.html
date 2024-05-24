@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <a href="https://www.alura.com.br/" target=”_blank”><img class="logoAlura" src="/imagens/logoAlura.png" alt="Logo da Alura"></a>
+    </header>
+
+    <main>
+        <section>
+            <p>ENCRIPTADOR</p>
+            <textarea class = "area_Do_Texto" cols="41" rows="4"  maxlength="50" placeholder="Digite seu texto"> Digite seu texto </textarea>
+
+            <div class="informacao">
+                <h6>Apenas letras minusculas, sem acento e sem símbolos @#$% </h6>
+            </div>
+
+            <div class="botoes">
+                <button class="btn_encriptar" onclick="btnEncriptar()" > Criptografar </button>
+                <button class="btn_desencriptar" onclick="btnDesencriptar()" > Descriptografar </button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="mensagem" cols="41" rows="4"> Não há mensagens aqui! </textarea>
+            
+            <div class="botao_copiar">
+                <button class="btn_copiar" onclick="btnCopiar()" > Copiar </button>
+            </div>        
+        </section>
+
+    </main>
+    <footer><a class="final" href="https://github.com/Thalles91" target=”_blank”> Desenvolvido por Thalles Gonçalves </a> </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+*{
+    background: #e5e5e5;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoAlura {
+    max-width:200px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.area_Do_Texto {
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+
+
+.mensagem {    
+    background: #e5e5e5;
+    background-image: url(/imagens/bau_aberto.png);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    border-radius: 5px;
+    color: #0a3871;
+    position: static;
+    text-transform: lowercase;
+    width: 100%;
+    padding-bottom: 328px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-evenly;
+}
+
+.btn_desencriptar {
+    background: #e5e5e5;
+    border: 3px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn_desencriptar:hover{
+    background-color: #0a3871;
+    color: aliceblue;
+}
+.btn_encriptar {
+    background: #e5e5e5;
+    border: 3px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btn_encriptar:hover{
+    background-color: #0a3871;
+    color: aliceblue;
+}
+
+.botao_copiar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn_copiar:hover{
+    background-color: #0a3871;
+    color: aliceblue;
+}
+
+.btn_copiar{
+    background: #e5e5e5;
+    border: 3px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-top: 18%;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.informacao{
+    color: #495057;
+    font-size: 18px;
+}
+footer {
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+}
+
+.final:hover{
+    color: #495057;
+}
+
+
+a {
+    text-decoration: none;
+    color: #0a3871;
+}
+
+
+@media screen and (min-width: 768px) {
+
+.buttons {
+    flex-direction: row;
+}
+
+.logo-title,
+#logo-title_white {
+    width: 150px;
+}
+
+}
